@@ -10,6 +10,6 @@ jobs:
     runs-on: windows-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: ethanchewy/demo-hello-action@v1
+    - uses: ethanchewy/demo-hello-action@v2
       with:
         userName: OctoCat
