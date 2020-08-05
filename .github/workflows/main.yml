@@ -1,0 +1,15 @@
+# This is a basic workflow to help you get started with Actions
+
+name: hello demo
+on:
+  push:
+    branches: [ master ]
+    
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: ethanchewy/demo-hello-action@v1
+      with:
+        userName: OctoCat
